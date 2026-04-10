@@ -2,7 +2,7 @@
 // SECTION 1: TYPING EFFECT
 // ============================================
 (function typingEffect() {
-  const words = ["Mr Edward ", "A Lecturer ", "A Mentor ", "Code Alchemist "];
+  const words = ["Project Coordinator ", "A Lecturer ", "A Twin Brother",];
   let wordIndex = 0, charIndex = 0;
   const typingElement = document.getElementById("typing");
   let isDeleting = false;
@@ -38,9 +38,8 @@
 // ============================================
 (function quoteCarousel() {
   const quotes = [
-    " Education is the most powerful weapon.", 
-    " Code your future, one line at a time.",
-    " Inspire. Teach. Lead. Innovate.",
+    " Deep understanding begins when we look past the theory to focus on hands-on practices.", 
+    " Empowering you to master the crafts you're most passionate about.",
     " Curiosity is the engine of achievement."
   ];
   let quoteIdx = 0;
